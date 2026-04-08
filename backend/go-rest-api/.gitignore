@@ -1,0 +1,28 @@
+# 바이너리
+bin/
+server
+*.exe
+
+# 환경 변수
+.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Go
+vendor/
+*.test
+coverage.out
+
+# Swagger 생성 파일
+docs/
+
+# Docker
+postgres_data/

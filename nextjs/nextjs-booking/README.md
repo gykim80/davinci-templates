@@ -1,0 +1,30 @@
+# Next.js 예약 플랫폼
+
+Next.js App Router 기반 Next.js 예약 플랫폼 템플릿.
+
+## 기술 스택
+
+- Next.js 15 (App Router + Turbopack)
+- TypeScript
+- Tailwind CSS
+- date-fns
+
+## 시작하기
+
+```bash
+npm install
+npm run dev
+```
+
+## 구조
+
+```
+src/
+  app/
+    layout.tsx       - 루트 레이아웃
+    page.tsx         - 메인 UI
+    globals.css      - 글로벌 스타일
+  components/        - UI 컴포넌트
+  lib/
+    utils.ts         - cn() 유틸리티
+```
